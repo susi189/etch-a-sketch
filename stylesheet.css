@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+button {
+  margin: 50px;
+}
+
+#container {
+  display: grid;
+  /* border: 1px solid; */
+  height: 900px;
+  width: 900px;
+  grid-template-rows: repeat(var(--grid-gridSize), 1fr);
+  grid-template-columns: repeat(var(--grid-gridSize), 1fr);
+}
+
+#grid-element {
+  padding: 1em;
+  border: 1px solid;
+}
