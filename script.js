@@ -20,7 +20,6 @@ clearBtn.addEventListener('click', () => {
 })
 
 
-
 function createGrid(gridSize) {
   container.style.setProperty('--grid-gridSize', gridSize);
   for (let i=0; i<gridSize; i++) {
