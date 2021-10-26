@@ -38,5 +38,6 @@ clearBtn.addEventListener("click", () => {
 });
 
 container.addEventListener("mousedown", (event) => {
+  changeFields(event);
   container.addEventListener("mousemove", changeFields);
 });
